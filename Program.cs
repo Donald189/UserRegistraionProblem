@@ -46,25 +46,25 @@ namespace RegxDemo
             //else
             //    Console.WriteLine("Phone Number Not Matched");
 
-            //FOR PASSWORD RULE 1
-            PasswordRule1 passwordRule1 = new PasswordRule1();
-            Console.WriteLine("Enter Password");
-            string value = Console.ReadLine();
-            bool match = passwordRule1.validatePasswordRule1(value);
-            if (match)
-                Console.WriteLine("Password Matched");
-            else
-                Console.WriteLine("Password Not Matched");
-
-            ////FOR PASSWORD RULE 2
-            //PasswordRule2 passwordRule2 = new PasswordRule2();
+            ////FOR PASSWORD RULE 1
+            //PasswordRule1 passwordRule1 = new PasswordRule1();
             //Console.WriteLine("Enter Password");
             //string value = Console.ReadLine();
-            //bool match = passwordRule2.validatePasswordRule2(value);
+            //bool match = passwordRule1.validatePasswordRule1(value);
             //if (match)
             //    Console.WriteLine("Password Matched");
             //else
             //    Console.WriteLine("Password Not Matched");
+
+            //FOR PASSWORD RULE 2
+            PasswordRule2 passwordRule2 = new PasswordRule2();
+            Console.WriteLine("Enter Password");
+            string value = Console.ReadLine();
+            bool match = passwordRule2.validatePasswordRule2(value);
+            if (match)
+                Console.WriteLine("Password Matched");
+            else
+                Console.WriteLine("Password Not Matched");
 
             ////FOR PASSWORD RULE 3
             //PasswordRule3 passwordRule3 = new PasswordRule3();
