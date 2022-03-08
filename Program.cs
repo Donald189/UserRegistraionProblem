@@ -6,25 +6,25 @@ namespace RegxDemo
     {
         public static void Main(string[] args)
         {
-            //FOR FIRST NAME
-            FirstName firstName = new FirstName();
-            Console.WriteLine("Enter First Name");
-            string value = Console.ReadLine();
-            bool match = firstName.validateFirstName(value);
-            if (match)
-                Console.WriteLine("First Name Matched");
-            else
-                Console.WriteLine("First Name Not Matched");
-
-            ////FOR LAST NAME
-            //LastName lastName = new LastName();
-            //Console.WriteLine("Enter Last Name");
+            ////FOR FIRST NAME
+            //FirstName firstName = new FirstName();
+            //Console.WriteLine("Enter First Name");
             //string value = Console.ReadLine();
-            //bool match = lastName.validateLastName(value);
+            //bool match = firstName.validateFirstName(value);
             //if (match)
-            //    Console.WriteLine("Last Name Matched");
+            //    Console.WriteLine("First Name Matched");
             //else
-            //    Console.WriteLine("Last Name Not Matched");
+            //    Console.WriteLine("First Name Not Matched");
+
+            //FOR LAST NAME
+            LastName lastName = new LastName();
+            Console.WriteLine("Enter Last Name");
+            string value = Console.ReadLine();
+            bool match = lastName.validateLastName(value);
+            if (match)
+                Console.WriteLine("Last Name Matched");
+            else
+                Console.WriteLine("Last Name Not Matched");
 
             ////FOR Email Id
             //EmailId emailId = new EmailId();
