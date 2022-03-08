@@ -26,25 +26,25 @@ namespace RegxDemo
             //else
             //    Console.WriteLine("Last Name Not Matched");
 
-            //FOR Email Id
-            EmailId emailId = new EmailId();
-            Console.WriteLine("Enter EmailId");
-            string value = Console.ReadLine();
-            bool match = emailId.validateEmailId(value);
-            if (match)
-                Console.WriteLine("Email ID Matched");
-            else
-                Console.WriteLine("Email ID Not Matched");
-
-            ////FOR PHONE NUMBER
-            //PhoneNumber phoneNumber = new PhoneNumber();
-            //Console.WriteLine("Enter Phone Number");
-            //string value=Console.ReadLine();
-            //bool match = phoneNumber.validatePhoneNumber(value);
+            ////FOR Email Id
+            //EmailId emailId = new EmailId();
+            //Console.WriteLine("Enter EmailId");
+            //string value = Console.ReadLine();
+            //bool match = emailId.validateEmailId(value);
             //if (match)
-            //    Console.WriteLine("Phone Number Matched");
+            //    Console.WriteLine("Email ID Matched");
             //else
-            //    Console.WriteLine("Phone Number Not Matched");
+            //    Console.WriteLine("Email ID Not Matched");
+
+            //FOR PHONE NUMBER
+            PhoneNumber phoneNumber = new PhoneNumber();
+            Console.WriteLine("Enter Phone Number");
+            string value = Console.ReadLine();
+            bool match = phoneNumber.validatePhoneNumber(value);
+            if (match)
+                Console.WriteLine("Phone Number Matched");
+            else
+                Console.WriteLine("Phone Number Not Matched");
 
             ////FOR PASSWORD RULE 1
             //PasswordRule1 passwordRule1 = new PasswordRule1();
