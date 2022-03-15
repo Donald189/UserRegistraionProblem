@@ -9,6 +9,11 @@ namespace RegxDemo
     class ValidateUserEntry
     {
         private string message;
+        UserRegistration userRegistration = new UserRegistration();
+        public ValidateUserEntry()
+        {
+
+        }
         public ValidateUserEntry(string message)
         {
             this.message = message;
