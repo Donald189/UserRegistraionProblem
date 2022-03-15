@@ -12,7 +12,6 @@ namespace RegxDemo
         UserRegistration userRegistration = new UserRegistration();
         public ValidateUserEntry()
         {
-
         }
         public ValidateUserEntry(string message)
         {
