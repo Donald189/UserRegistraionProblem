@@ -6,45 +6,47 @@ namespace RegxDemo
     {
         public static void Main(string[] args)
         {
-            ////FOR FIRST NAME
-            //FirstName firstName = new FirstName();
-            //Console.WriteLine("Enter First Name");
-            //string value = Console.ReadLine();
-            //bool match = firstName.validateFirstName(value);
-            //if (match)
-            //    Console.WriteLine("First Name Matched");
-            //else
-            //    Console.WriteLine("First Name Not Matched");
+            UserRegistration registration = new UserRegistration();
 
-            ////FOR LAST NAME
-            //LastName lastName = new LastName();
-            //Console.WriteLine("Enter Last Name");
-            //string value = Console.ReadLine();
-            //bool match = lastName.validateLastName(value);
-            //if (match)
-            //    Console.WriteLine("Last Name Matched");
-            //else
-            //    Console.WriteLine("Last Name Not Matched");
+            //FOR FIRST NAME
+            FirstName firstName = new FirstName();
+            Console.WriteLine("Enter First Name");
+            string value = Console.ReadLine();
+            bool match = firstName.validateFirstName(value);
+            if (match)
+                Console.WriteLine("First Name Matched");
+            else
+                Console.WriteLine("First Name Not Matched");
 
-            ////FOR Email Id
-            //EmailId emailId = new EmailId();
-            //Console.WriteLine("Enter EmailId");
-            //string value = Console.ReadLine();
-            //bool match = emailId.validateEmailId(value);
-            //if (match)
-            //    Console.WriteLine("Email ID Matched");
-            //else
-            //    Console.WriteLine("Email ID Not Matched");
+            //FOR LAST NAME
+            LastName lastName = new LastName();
+            Console.WriteLine("Enter Last Name");
+            string value1 = Console.ReadLine();
+            bool match1 = lastName.validateLastName(value1);
+            if (match1)
+                Console.WriteLine("Last Name Matched");
+            else
+                Console.WriteLine("Last Name Not Matched");
 
-            ////FOR PHONE NUMBER
-            //PhoneNumber phoneNumber = new PhoneNumber();
-            //Console.WriteLine("Enter Phone Number");
-            //string value = Console.ReadLine();
-            //bool match = phoneNumber.validatePhoneNumber(value);
-            //if (match)
-            //    Console.WriteLine("Phone Number Matched");
-            //else
-            //    Console.WriteLine("Phone Number Not Matched");
+            //FOR Email Id
+            EmailId emailId = new EmailId();
+            Console.WriteLine("Enter EmailId");
+            string value2 = Console.ReadLine();
+            bool match2 = emailId.validateEmailId(value2);
+            if (match2)
+                Console.WriteLine("Email ID Matched");
+            else
+                Console.WriteLine("Email ID Not Matched");
+
+            //FOR PHONE NUMBER
+            PhoneNumber phoneNumber = new PhoneNumber();
+            Console.WriteLine("Enter Phone Number");
+            string value3 = Console.ReadLine();
+            bool match3 = phoneNumber.validatePhoneNumber(value3);
+            if (match3)
+                Console.WriteLine("Phone Number Matched");
+            else
+                Console.WriteLine("Phone Number Not Matched");
 
             ////FOR PASSWORD RULE 1
             //PasswordRule1 passwordRule1 = new PasswordRule1();
@@ -79,9 +81,9 @@ namespace RegxDemo
             //FOR PASSWORD RULE 4
             PasswordRule4 passwordRule4 = new PasswordRule4();
             Console.WriteLine("Enter Password");
-            string value = Console.ReadLine();
-            bool match = passwordRule4.validatePasswordRule4(value);
-            if (match)
+            string value4 = Console.ReadLine();
+            bool match4 = passwordRule4.validatePasswordRule4(value4);
+            if (match4)
                 Console.WriteLine("Password Matched");
             else
                 Console.WriteLine("Password Not Matched");
